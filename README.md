@@ -8,7 +8,8 @@
 |---|---|
 | `BankMarketing.ipynb` | โน้ตบุ๊กหลัก: EDA → feature engineering → train/test split → เปรียบเทียบโมเดล → tuning → สรุปผล |
 | `BankMarketing_Presentation.pptx` | สไลด์สรุปผลงานทั้งหมด 18 หน้า สำหรับนำเสนอ |
-| `datascience.csv` | ข้อมูลดิบ (Bank Marketing dataset, 45,211 แถว / 17 คอลัมน์) |
+
+> **หมายเหตุ:** ข้อมูลดิบ (`datascience.csv`, Bank Marketing dataset 45,211 แถว / 17 คอลัมน์) ไม่ได้รวมไว้ใน repo นี้ เพราะเป็นข้อมูลที่ได้รับมาจากแบบทดสอบ (take-home assignment) ของกระบวนการสมัครงาน จึงไม่เผยแพร่ต่อสาธารณะ
 
 ## แนวทางการทำงาน
 
@@ -36,3 +37,5 @@
 pip install numpy pandas matplotlib seaborn scikit-learn xgboost lightgbm
 jupyter notebook BankMarketing.ipynb
 ```
+
+ต้องมีไฟล์ข้อมูล `datascience.csv` วางไว้ในโฟลเดอร์เดียวกับโน้ตบุ๊กก่อนจึงจะรันได้ (ดูหมายเหตุด้านบน)
