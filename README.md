@@ -9,7 +9,14 @@
 | `BankMarketing.ipynb` | โน้ตบุ๊กหลัก: EDA → feature engineering → train/test split → เปรียบเทียบโมเดล → tuning → สรุปผล |
 | `BankMarketing_Presentation.pptx` | สไลด์สรุปผลงานทั้งหมด 18 หน้า สำหรับนำเสนอ |
 
-> **หมายเหตุ:** ข้อมูลดิบ (`datascience.csv`, Bank Marketing dataset 45,211 แถว / 17 คอลัมน์) ไม่ได้รวมไว้ใน repo นี้ เพราะเป็นข้อมูลที่ได้รับมาจากแบบทดสอบ (take-home assignment) ของกระบวนการสมัครงาน จึงไม่เผยแพร่ต่อสาธารณะ
+## แหล่งข้อมูล
+
+ข้อมูลดิบ (`datascience.csv`, 45,211 แถว / 17 คอลัมน์) ไม่ได้รวมไว้ใน repo นี้ แต่เป็นชุดข้อมูลเดียวกับ **UCI "Bank Marketing" dataset** ซึ่งเป็น public dataset ชื่อดังที่ใช้กันแพร่หลายในงาน ML ด้าน marketing/banking สามารถดาวน์โหลดได้ที่:
+
+> Moro, S., Cortez, P., & Rita, P. (2014). *A Data-Driven Approach to Predict the Success of Bank Telemarketing.* Decision Support Systems, 62, 22–31.
+> UCI Machine Learning Repository: https://archive.ics.uci.edu/dataset/222/bank+marketing
+
+ดาวน์โหลดไฟล์ `bank-full.csv` จากหน้านั้นแล้ว rename เป็น `datascience.csv` (หรือแก้บรรทัด `pd.read_csv("datascience.csv")` ในโน้ตบุ๊กให้ตรงกับชื่อไฟล์ที่ดาวน์โหลดมา) วางไว้ในโฟลเดอร์เดียวกับโน้ตบุ๊กก่อนรัน
 
 ## แนวทางการทำงาน
 
@@ -38,4 +45,4 @@ pip install numpy pandas matplotlib seaborn scikit-learn xgboost lightgbm
 jupyter notebook BankMarketing.ipynb
 ```
 
-ต้องมีไฟล์ข้อมูล `datascience.csv` วางไว้ในโฟลเดอร์เดียวกับโน้ตบุ๊กก่อนจึงจะรันได้ (ดูหมายเหตุด้านบน)
+ต้องมีไฟล์ข้อมูล `datascience.csv` วางไว้ในโฟลเดอร์เดียวกับโน้ตบุ๊กก่อนจึงจะรันได้ (ดูหัวข้อ "แหล่งข้อมูล" ด้านบน)
