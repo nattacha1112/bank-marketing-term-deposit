@@ -7,7 +7,7 @@
 | ไฟล์ | รายละเอียด |
 |---|---|
 | `BankMarketing.ipynb` | โน้ตบุ๊กหลัก: EDA → feature engineering → train/test split → เปรียบเทียบโมเดล → tuning → สรุปผล |
-| `BankMarketing_Presentation.pptx` | สไลด์สรุปผลงานทั้งหมด 22 หน้า สำหรับนำเสนอ (รวม Appendix C–F: Scaler, Encoding, Metrics, ROC) |
+| `BankMarketing_Presentation.pptx` | สไลด์สรุปผลงานทั้งหมด 23 หน้า สำหรับนำเสนอ (รวม Appendix C–F: Scaler, Encoding, Metrics, ROC) |
 
 ## แหล่งข้อมูล
 
